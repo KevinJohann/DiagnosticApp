@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3A2092264DEAA30055C1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A2091264DEAA30055C1FC /* AppDelegate.swift */; };
+		FE3A2099264DEAA30055C1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A2097264DEAA30055C1FC /* Main.storyboard */; };
+		FE3A209B264DEAA60055C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3A209A264DEAA60055C1FC /* Assets.xcassets */; };
+		FE3A209E264DEAA60055C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A209C264DEAA60055C1FC /* LaunchScreen.storyboard */; };
+		FE3A20AC264DEBBA0055C1FC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20AB264DEBBA0055C1FC /* AppCoordinator.swift */; };
+		FE3A20B7264DEBF70055C1FC /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A20B1264DEBF70055C1FC /* Splash.storyboard */; };
+		FE3A20B8264DEBF70055C1FC /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20B2264DEBF70055C1FC /* SplashPresenter.swift */; };
+		FE3A20B9264DEBF70055C1FC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20B3264DEBF70055C1FC /* SplashViewController.swift */; };
+		FE3A20BA264DEBF70055C1FC /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20B4264DEBF70055C1FC /* SplashProtocols.swift */; };
+		FE3A20BB264DEBF70055C1FC /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20B5264DEBF70055C1FC /* SplashInteractor.swift */; };
+		FE3A20BC264DEBF70055C1FC /* SplashWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20B6264DEBF70055C1FC /* SplashWireframe.swift */; };
+		FE3A20C7264DEC2F0055C1FC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A20C1264DEC2F0055C1FC /* Login.storyboard */; };
+		FE3A20C8264DEC2F0055C1FC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20C2264DEC2F0055C1FC /* LoginPresenter.swift */; };
+		FE3A20C9264DEC2F0055C1FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20C3264DEC2F0055C1FC /* LoginViewController.swift */; };
+		FE3A20CA264DEC2F0055C1FC /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20C4264DEC2F0055C1FC /* LoginProtocols.swift */; };
+		FE3A20CB264DEC2F0055C1FC /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20C5264DEC2F0055C1FC /* LoginInteractor.swift */; };
+		FE3A20CC264DEC2F0055C1FC /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20C6264DEC2F0055C1FC /* LoginWireframe.swift */; };
+		FE3A20D4264DEC940055C1FC /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20D3264DEC940055C1FC /* Storyboardable.swift */; };
+		FE3A20DD264DED4F0055C1FC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A20D7264DED4F0055C1FC /* Home.storyboard */; };
+		FE3A20DE264DED4F0055C1FC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20D8264DED4F0055C1FC /* HomePresenter.swift */; };
+		FE3A20DF264DED4F0055C1FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20D9264DED4F0055C1FC /* HomeViewController.swift */; };
+		FE3A20E0264DED4F0055C1FC /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20DA264DED4F0055C1FC /* HomeProtocols.swift */; };
+		FE3A20E1264DED4F0055C1FC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20DB264DED4F0055C1FC /* HomeInteractor.swift */; };
+		FE3A20E2264DED4F0055C1FC /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20DC264DED4F0055C1FC /* HomeWireframe.swift */; };
+		FE3A20E7264DED9B0055C1FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A20E6264DED9A0055C1FC /* Coordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE3A208E264DEAA30055C1FC /* DiagnosticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiagnosticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3A2091264DEAA30055C1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3A2098264DEAA30055C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3A209A264DEAA60055C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3A209D264DEAA60055C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3A209F264DEAA60055C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3A20AB264DEBBA0055C1FC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FE3A20B1264DEBF70055C1FC /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		FE3A20B2264DEBF70055C1FC /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		FE3A20B3264DEBF70055C1FC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FE3A20B4264DEBF70055C1FC /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		FE3A20B5264DEBF70055C1FC /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		FE3A20B6264DEBF70055C1FC /* SplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframe.swift; sourceTree = "<group>"; };
+		FE3A20C1264DEC2F0055C1FC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FE3A20C2264DEC2F0055C1FC /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		FE3A20C3264DEC2F0055C1FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FE3A20C4264DEC2F0055C1FC /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		FE3A20C5264DEC2F0055C1FC /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		FE3A20C6264DEC2F0055C1FC /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		FE3A20D3264DEC940055C1FC /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		FE3A20D7264DED4F0055C1FC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FE3A20D8264DED4F0055C1FC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FE3A20D9264DED4F0055C1FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FE3A20DA264DED4F0055C1FC /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		FE3A20DB264DED4F0055C1FC /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FE3A20DC264DED4F0055C1FC /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		FE3A20E6264DED9A0055C1FC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3A208B264DEAA20055C1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3A2085264DEAA20055C1FC = {
+			isa = PBXGroup;
+			children = (
+				FE3A2090264DEAA30055C1FC /* DiagnosticApp */,
+				FE3A208F264DEAA30055C1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3A208F264DEAA30055C1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A208E264DEAA30055C1FC /* DiagnosticApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3A2090264DEAA30055C1FC /* DiagnosticApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A2091264DEAA30055C1FC /* AppDelegate.swift */,
+				FE3A209A264DEAA60055C1FC /* Assets.xcassets */,
+				FE3A20AA264DEBB00055C1FC /* Coordinators */,
+				FE3A209F264DEAA60055C1FC /* Info.plist */,
+				FE3A2097264DEAA30055C1FC /* Main.storyboard */,
+				FE3A20A7264DEB870055C1FC /* Modules */,
+				FE3A20A8264DEB8C0055C1FC /* Network */,
+				FE3A20A9264DEB930055C1FC /* Utils */,
+			);
+			path = DiagnosticApp;
+			sourceTree = "<group>";
+		};
+		FE3A20A7264DEB870055C1FC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20D6264DED440055C1FC /* Home */,
+				FE3A20B0264DEBDF0055C1FC /* LaunchScreen */,
+				FE3A20C0264DEC260055C1FC /* Login */,
+				FE3A20AF264DEBD30055C1FC /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FE3A20A8264DEB8C0055C1FC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE3A20A9264DEB930055C1FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20E6264DED9A0055C1FC /* Coordinator.swift */,
+				FE3A20D3264DEC940055C1FC /* Storyboardable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FE3A20AA264DEBB00055C1FC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20AB264DEBBA0055C1FC /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		FE3A20AF264DEBD30055C1FC /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20B1264DEBF70055C1FC /* Splash.storyboard */,
+				FE3A20B5264DEBF70055C1FC /* SplashInteractor.swift */,
+				FE3A20B2264DEBF70055C1FC /* SplashPresenter.swift */,
+				FE3A20B4264DEBF70055C1FC /* SplashProtocols.swift */,
+				FE3A20B3264DEBF70055C1FC /* SplashViewController.swift */,
+				FE3A20B6264DEBF70055C1FC /* SplashWireframe.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		FE3A20B0264DEBDF0055C1FC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A209C264DEAA60055C1FC /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FE3A20C0264DEC260055C1FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20C1264DEC2F0055C1FC /* Login.storyboard */,
+				FE3A20C5264DEC2F0055C1FC /* LoginInteractor.swift */,
+				FE3A20C2264DEC2F0055C1FC /* LoginPresenter.swift */,
+				FE3A20C4264DEC2F0055C1FC /* LoginProtocols.swift */,
+				FE3A20C3264DEC2F0055C1FC /* LoginViewController.swift */,
+				FE3A20C6264DEC2F0055C1FC /* LoginWireframe.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FE3A20D6264DED440055C1FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A20D7264DED4F0055C1FC /* Home.storyboard */,
+				FE3A20DB264DED4F0055C1FC /* HomeInteractor.swift */,
+				FE3A20D8264DED4F0055C1FC /* HomePresenter.swift */,
+				FE3A20DA264DED4F0055C1FC /* HomeProtocols.swift */,
+				FE3A20D9264DED4F0055C1FC /* HomeViewController.swift */,
+				FE3A20DC264DED4F0055C1FC /* HomeWireframe.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3A208D264DEAA20055C1FC /* DiagnosticApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3A20A2264DEAA60055C1FC /* Build configuration list for PBXNativeTarget "DiagnosticApp" */;
+			buildPhases = (
+				FE3A208A264DEAA20055C1FC /* Sources */,
+				FE3A208B264DEAA20055C1FC /* Frameworks */,
+				FE3A208C264DEAA20055C1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiagnosticApp;
+			productName = DiagnosticApp;
+			productReference = FE3A208E264DEAA30055C1FC /* DiagnosticApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3A2086264DEAA20055C1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FE3A208D264DEAA20055C1FC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FE3A2089264DEAA20055C1FC /* Build configuration list for PBXProject "DiagnosticApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3A2085264DEAA20055C1FC;
+			productRefGroup = FE3A208F264DEAA30055C1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3A208D264DEAA20055C1FC /* DiagnosticApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3A208C264DEAA20055C1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A209E264DEAA60055C1FC /* LaunchScreen.storyboard in Resources */,
+				FE3A209B264DEAA60055C1FC /* Assets.xcassets in Resources */,
+				FE3A2099264DEAA30055C1FC /* Main.storyboard in Resources */,
+				FE3A20DD264DED4F0055C1FC /* Home.storyboard in Resources */,
+				FE3A20C7264DEC2F0055C1FC /* Login.storyboard in Resources */,
+				FE3A20B7264DEBF70055C1FC /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3A208A264DEAA20055C1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A20BA264DEBF70055C1FC /* SplashProtocols.swift in Sources */,
+				FE3A20BB264DEBF70055C1FC /* SplashInteractor.swift in Sources */,
+				FE3A20AC264DEBBA0055C1FC /* AppCoordinator.swift in Sources */,
+				FE3A20C8264DEC2F0055C1FC /* LoginPresenter.swift in Sources */,
+				FE3A2092264DEAA30055C1FC /* AppDelegate.swift in Sources */,
+				FE3A20E2264DED4F0055C1FC /* HomeWireframe.swift in Sources */,
+				FE3A20E7264DED9B0055C1FC /* Coordinator.swift in Sources */,
+				FE3A20DF264DED4F0055C1FC /* HomeViewController.swift in Sources */,
+				FE3A20BC264DEBF70055C1FC /* SplashWireframe.swift in Sources */,
+				FE3A20B8264DEBF70055C1FC /* SplashPresenter.swift in Sources */,
+				FE3A20DE264DED4F0055C1FC /* HomePresenter.swift in Sources */,
+				FE3A20CB264DEC2F0055C1FC /* LoginInteractor.swift in Sources */,
+				FE3A20C9264DEC2F0055C1FC /* LoginViewController.swift in Sources */,
+				FE3A20D4264DEC940055C1FC /* Storyboardable.swift in Sources */,
+				FE3A20E0264DED4F0055C1FC /* HomeProtocols.swift in Sources */,
+				FE3A20B9264DEBF70055C1FC /* SplashViewController.swift in Sources */,
+				FE3A20CA264DEC2F0055C1FC /* LoginProtocols.swift in Sources */,
+				FE3A20CC264DEC2F0055C1FC /* LoginWireframe.swift in Sources */,
+				FE3A20E1264DED4F0055C1FC /* HomeInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE3A2097264DEAA30055C1FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3A2098264DEAA30055C1FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3A209C264DEAA60055C1FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3A209D264DEAA60055C1FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3A20A0264DEAA60055C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3A20A1264DEAA60055C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3A20A3264DEAA60055C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiagnosticApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diagnosticapp.DiagnosticApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3A20A4264DEAA60055C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiagnosticApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diagnosticapp.DiagnosticApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3A2089264DEAA20055C1FC /* Build configuration list for PBXProject "DiagnosticApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A20A0264DEAA60055C1FC /* Debug */,
+				FE3A20A1264DEAA60055C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3A20A2264DEAA60055C1FC /* Build configuration list for PBXNativeTarget "DiagnosticApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A20A3264DEAA60055C1FC /* Debug */,
+				FE3A20A4264DEAA60055C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3A2086264DEAA20055C1FC /* Project object */;
+}
